@@ -3,6 +3,7 @@ Spring3HibernateMaven
 
 Simple Spring MVC demo with hibernate integration.
 
+I am thankful to Mr Patel for this usefule tutorial.
 Source / detail working : http://viralpatel.net/blogs/spring3-mvc-hibernate-maven-tutorial-eclipse-example/
 
 
@@ -15,7 +16,7 @@ Pre-Requisite
       mysql> CREATE DATABASE ContactManager;
       
       Please note : You can configure db user and password in the following file,
-          src/main/webapp/WEB-INF/jdbc.properties
+      src/main/webapp/WEB-INF/jdbc.properties
       
 
 Set up project
@@ -39,7 +40,7 @@ Set up project
      
      Optional - If you want to see Server logs
 
-       $ sudo vi tails -f ../logs/catalina.out
+       $ sudo vi tail -f ../logs/catalina.out
      
      
   5)  Test the web app
