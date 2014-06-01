@@ -1,13 +1,12 @@
 Spring3HibernateMaven
 =====================
 
-Simple Spring MVC demo with hibernate integration.
-
 I am thankful to Mr Patel for this usefule tutorial.
 Source / detail working : http://viralpatel.net/blogs/spring3-mvc-hibernate-maven-tutorial-eclipse-example/
 
 
-Pre-Requisite
+Pre-Requisite:
+
     - Maven installed.   (I tested with Apache Maven 3.0.3)
     - Apache Tomcat      (I tested with apache-tomcat-7.0.52)
     - MySQL Server version: 5.5.36 MySQL Community Server (GPL)
