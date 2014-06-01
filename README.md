@@ -1,15 +1,15 @@
 Spring3HibernateMaven
 =====================
 
-I am thankful to Mr Patel for this usefule tutorial.
+I am very thankful to Mr. Patel for sharing this useful tutorial.
 Source / detail working : http://viralpatel.net/blogs/spring3-mvc-hibernate-maven-tutorial-eclipse-example/
 
 
 Pre-Requisite:
 
-    - Maven installed.   (I tested with Apache Maven 3.0.3)
+    - Maven              (I tested with Apache Maven 3.0.3)
     - Apache Tomcat      (I tested with apache-tomcat-7.0.52)
-    - MySQL Server version: 5.5.36 MySQL Community Server (GPL)
+    - MySQL              ( I tested with Server version: 5.5.36 MySQL Community Server (GPL))
     - Create ContactManager database in MySQL from the dbuser login
       $ mysql -u {db user}  -p {db user password}                   (Enter)
       mysql> CREATE DATABASE ContactManager;
@@ -18,7 +18,7 @@ Pre-Requisite:
       src/main/webapp/WEB-INF/jdbc.properties
       
 
-Set up project
+Set up project :
   
   1) Clone the project
   
