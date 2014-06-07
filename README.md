@@ -1,7 +1,7 @@
 Spring3HibernateMaven
 =====================
 
-I am very thankful to Mr. Patel for sharing this useful tutorial. For explanation and working,
+I am very thankful to Viral Patel for sharing this useful tutorial. For explanation and working,
 
    Refer : http://viralpatel.net/blogs/spring3-mvc-hibernate-maven-tutorial-eclipse-example/
 
