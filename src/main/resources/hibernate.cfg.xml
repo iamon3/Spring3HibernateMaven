@@ -7,6 +7,7 @@
 <hibernate-configuration>
     
  	<session-factory>
+ 		<!-- Hibernate model to be mapped. -->
         	<mapping class="net.viralpatel.contact.form.Contact" />
     	</session-factory>
 	    
