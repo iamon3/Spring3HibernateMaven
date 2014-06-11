@@ -36,7 +36,8 @@
 	</bean>
 
 	<!-- Messages in the applications can be configured in properties files and 
-	     then used in the applications at various places-->
+	     then used in the applications at various places. messages property file is 
+	     src/main/resources/messages_en.properties which is configured as the basename property -->
 	<bean id="messageSource"
 		class="org.springframework.context.support.ReloadableResourceBundleMessageSource">
 		<property name="basename" value="classpath:messages" />
@@ -60,6 +61,7 @@
 		class="org.springframework.orm.hibernate3.LocalSessionFactoryBean">
 		<property name="dataSource" ref="dataSource" />
 		<property name="configLocation">  
+		        <!-- File location src/main/resources/hibernate.cgf.xml which is present in the classpath -->
 			<value>classpath:hibernate.cfg.xml</value> 
 		</property>
 		<property name="configurationClass">
