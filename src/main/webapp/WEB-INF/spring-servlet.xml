@@ -68,9 +68,9 @@
 		<property name="hibernateProperties">
 			<props> 
 			        <!--This is an exmaple of injecting dependency from external properties files. -->
-				<prop key="hibernate.hbm2ddl.auto">create-drop</prop>
+				<prop key="hibernate.hbm2ddl.auto">${jdbc.hbm2ddl}</prop>
 				<prop key="hibernate.dialect">${jdbc.dialect}</prop>
-				<prop key="hibernate.show_sql">true</prop>
+				<prop key="hibernate.show_sql">${jdbc.showsql}</prop>
 			</props>
 		</property>
 	</bean>
