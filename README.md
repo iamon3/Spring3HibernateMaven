@@ -4,6 +4,7 @@ Spring3HibernateMaven
 I am very thankful to Viral Patel for sharing this useful tutorial. For explanation and working,
 
    Refer : http://viralpatel.net/blogs/spring3-mvc-hibernate-maven-tutorial-eclipse-example/
+   Also Refer : http://patrickgrimard.com/2009/12/08/spring-mvc-and-hibernate-made-simple-with-annotations/
 
 Although, this blog is bit older, as it was written 4 yrs back, but still it's good to start and develop the project. Soon, I will try to update this project or will create new project, with new trends in Spring MVC, Hibernate. 
 
